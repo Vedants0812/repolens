@@ -1,0 +1,19 @@
+{
+  "name": "repolens-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "groq-sdk": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
