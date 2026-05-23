@@ -4,7 +4,7 @@ import AnalysisView from './components/AnalysisView';
 import LoadingState from './components/LoadingState';
 import './App.css';
 
-const API = 'http://localhost:3002/api/repo';
+const API = 'https://repolens-production-b776.up.railway.app/api/repo';
 
 export default function App() {
   const [phase, setPhase] = useState('input');
